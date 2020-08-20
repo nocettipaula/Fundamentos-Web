@@ -61,3 +61,37 @@
 .ml-50 {
     margin-left: 50px;
 }
+
+.formulario-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.formulario-container .formulario {
+    width: 40%;
+    align-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.formulario-container .formulario:form {
+
+}
+.formulario-container .formulario form input[type=text],
+.formulario-container .formulario form input[type=email],
+.formulario-container .formulario form textarea{
+    border: 1px solid #006599;
+    margin-bottom: 20px;
+    font-size: 16px;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.formulario-container .localizacao {
+    width: 40%;
+    margin: 10px;
+}
